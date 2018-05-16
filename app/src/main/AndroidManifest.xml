@@ -19,7 +19,19 @@
         <activity
             android:name=".viaje"
             android:label="@string/title_activity_viaje"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".login"
+            android:label="@string/title_activity_login"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".detalleViaje"
+            android:label="@string/title_activity_detalle_viaje"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Login2"
+            android:label="@string/title_activity_login2"
+            android:theme="@style/AppTheme.NoActionBar" />
     </application>
 
 </manifest>

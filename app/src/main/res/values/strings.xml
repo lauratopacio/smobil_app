@@ -1,4 +1,9 @@
 <resources>
     <string name="app_name">smobil</string>
     <string name="title_activity_viaje">viaje</string>
+    <string name="title_activity_login">login</string>
+    <string name="title_activity_detalle_viaje">detalleViaje</string>
+    <string name="registrar">registrar</string>
+    <string name="acceder">acceder</string>
+    <string name="title_activity_login2">Login2</string>
 </resources>
