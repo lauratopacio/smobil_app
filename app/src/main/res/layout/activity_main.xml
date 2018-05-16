@@ -10,7 +10,7 @@
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Smobil "
+        android:text="Smobil sa"
         tools:layout_editor_absoluteX="104dp"
         tools:layout_editor_absoluteY="53dp"
         tools:ignore="HardcodedText,MissingConstraints" />
