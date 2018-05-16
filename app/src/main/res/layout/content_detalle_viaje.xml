@@ -98,4 +98,46 @@
             android:orientation="vertical" />
     </ScrollView>
 
+    <TextView
+        android:id="@+id/id_viaje"
+        android:layout_width="98dp"
+        android:layout_height="24dp"
+        tools:layout_editor_absoluteX="102dp"
+        tools:layout_editor_absoluteY="3dp" />
+
+    <TextView
+        android:id="@+id/id_camion"
+        android:layout_width="94dp"
+        android:layout_height="22dp"
+        tools:layout_editor_absoluteX="102dp"
+        tools:layout_editor_absoluteY="35dp" />
+
+    <TextView
+        android:id="@+id/id_destino"
+        android:layout_width="93dp"
+        android:layout_height="22dp"
+        tools:layout_editor_absoluteX="102dp"
+        tools:layout_editor_absoluteY="68dp" />
+
+    <TextView
+        android:id="@+id/id_responsable"
+        android:layout_width="212dp"
+        android:layout_height="21dp"
+        tools:layout_editor_absoluteX="140dp"
+        tools:layout_editor_absoluteY="106dp" />
+
+    <TextView
+        android:id="@+id/id_chofer"
+        android:layout_width="198dp"
+        android:layout_height="26dp"
+        tools:layout_editor_absoluteX="89dp"
+        tools:layout_editor_absoluteY="134dp" />
+
+    <TextView
+        android:id="@+id/id_tecnico"
+        android:layout_width="190dp"
+        android:layout_height="24dp"
+        tools:layout_editor_absoluteX="97dp"
+        tools:layout_editor_absoluteY="167dp" />
+
 </android.support.constraint.ConstraintLayout>
