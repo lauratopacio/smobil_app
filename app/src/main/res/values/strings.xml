@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">smobil</string>
+    <string name="title_activity_viaje">viaje</string>
 </resources>
