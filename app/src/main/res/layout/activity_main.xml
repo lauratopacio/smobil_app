@@ -6,12 +6,4 @@
     android:layout_height="match_parent"
     tools:context="com.example.lab_des_06.smobil.MainActivity">
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Prueba"
-        tools:layout_editor_absoluteX="139dp"
-        tools:layout_editor_absoluteY="99dp"
-        tools:ignore="HardcodedText,MissingConstraints" />
 </android.support.constraint.ConstraintLayout>
