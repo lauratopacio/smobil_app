@@ -1,19 +1,53 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:orientation="vertical" android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:weightSum="1"
+android:cacheColorHint="@android:color/transparent"
+android:divider="@android:color/transparent"
+android:dividerHeight="12dp"
+android:scrollbarStyle="outsideOverlay"
+android:paddingBottom="7dp"
+android:paddingLeft="9dp"
+android:paddingRight="9dp"
+android:paddingTop="10dp">
+
+
+<LinearLayout
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context="com.example.lab_des_06.smobil.viaje"
-    tools:showIn="@layout/activity_viaje">
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:weightSum="1"
+    tools:ignore="ExtraText"
+    >
+
+
 
     <TextView
-        android:id="@+id/textView2"
+
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Viaje"
-        tools:layout_editor_absoluteX="148dp"
-        tools:layout_editor_absoluteY="130dp"
-        tools:ignore="HardcodedText,MissingConstraints" />
-</android.support.constraint.ConstraintLayout>
+        android:layout_height="30dp"
+        android:id="@+id/textView7"
+        android:text="Usuario:"
+        android:textSize="30px"
+        android:textColor="#000000" />
+
+    />
+
+    <TextView
+        android:id="@+id/vtusuario"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_gravity="center_horizontal"
+        android:textAlignment="textEnd"
+        android:textColor="#000000"
+        android:textSize="30px"
+
+
+        />
+</LinearLayout>
+
+
+</LinearLayout>
